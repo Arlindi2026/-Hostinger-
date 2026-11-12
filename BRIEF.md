@@ -10,12 +10,12 @@
 
 ## 1. The basics
 
-- Brand name: [e.g. Moma Cars]
-- One line on what it is: [e.g. used car dealership in Shkoder and Tirana]
-- Where it operates: [city or region]
-- Primary language: [e.g. Albanian]
-- Secondary language, if any: [e.g. English]
-- Live domain, if you have one: [e.g. momacars.al]
+- Brand name: AV Elite Home Renovation LLC
+- One line on what it is: home renovation company: kitchens and bathrooms, flooring and tile, painting and drywall, full home renovation
+- Where it operates: TODO
+- Primary language: English
+- Secondary language, if any: Spanish (Latin American)
+- Live domain, if you have one: avelitehomerenovation.com
 
 ## 2. Audience and the one job
 
