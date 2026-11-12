@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta_title}}</title>
+<meta name="description" content="{{meta_desc}}">
+<link rel="canonical" href="https://avelitehomerenovation.com{{path}}">
+<link rel="alternate" hreflang="en" href="https://avelitehomerenovation.com/">
+<link rel="alternate" hreflang="es" href="https://avelitehomerenovation.com/es/">
+<meta property="og:title" content="{{meta_title}}">
+<meta property="og:description" content="{{meta_desc}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://avelitehomerenovation.com{{path}}">
+<meta name="theme-color" content="#1f2428">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=DM+Mono:wght@400;500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"AV Elite Home Renovation LLC","url":"https://avelitehomerenovation.com/","telephone":"+19298669637","areaServed":["New York","New Jersey"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">{{skip}}</a>
+
+<header class="top">
+  <a class="mark" href="{{path}}" aria-label="AV Elite Home Renovation LLC">
+    <span class="mark-name">AV Elite</span>
+    <span class="mark-sub">Home Renovation LLC</span>
+  </a>
+  <nav class="nav" aria-label="{{nav_label}}">
+    <a href="#services">{{nav_services}}</a>
+    <a href="#work">{{nav_work}}</a>
+    <a href="#process">{{nav_process}}</a>
+    <a href="#estimate">{{nav_estimate}}</a>
+  </nav>
+  <div class="top-end">
+    <a class="phone" href="tel:+19298669637">+1 (929) 866 9637</a>
+    <div class="lang" aria-label="{{lang_label}}">
+      <a href="/" lang="en" {{en_current}}>EN</a>
+      <a href="/es/" lang="es" {{es_current}}>ES</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="hero-copy">
+    <p class="tape">{{hero_tape}}</p>
+    <h1>{{hero_h1}}</h1>
+    <p class="lede">{{hero_lede}}</p>
+    <div class="actions">
+      <a class="btn btn-solid" href="#estimate">{{cta_estimate}}</a>
+      <a class="btn btn-line" href="https://wa.me/19298669637" rel="noopener">{{cta_whatsapp}}</a>
+    </div>
+  </div>
+  <figure class="shot shot-hero" data-slot="hero">
+    <figcaption>{{slot_hero}}</figcaption>
+  </figure>
+</section>
+
+<section class="services" id="services">
+  <div class="section-head">
+    <p class="tape">{{services_tape}}</p>
+    <h2>{{services_h2}}</h2>
+  </div>
+  <div class="service-list">
+    <article class="service">
+      <h3>{{s1_name}}</h3>
+      <p>{{s1_text}}</p>
+      <ul>{{s1_items}}</ul>
+    </article>
+    <article class="service">
+      <h3>{{s2_name}}</h3>
+      <p>{{s2_text}}</p>
+      <ul>{{s2_items}}</ul>
+    </article>
+    <article class="service">
+      <h3>{{s3_name}}</h3>
+      <p>{{s3_text}}</p>
+      <ul>{{s3_items}}</ul>
+    </article>
+    <article class="service">
+      <h3>{{s4_name}}</h3>
+      <p>{{s4_text}}</p>
+      <ul>{{s4_items}}</ul>
+    </article>
+  </div>
+</section>
+
+<section class="work" id="work">
+  <div class="section-head">
+    <p class="tape">{{work_tape}}</p>
+    <h2>{{work_h2}}</h2>
+    <p class="section-note">{{work_note}}</p>
+  </div>
+  <div class="work-grid">
+    <figure class="shot shot-a" data-slot="kitchen"><figcaption>{{slot_kitchen}}</figcaption></figure>
+    <figure class="shot shot-b" data-slot="bathroom"><figcaption>{{slot_bathroom}}</figcaption></figure>
+    <figure class="shot shot-c" data-slot="flooring"><figcaption>{{slot_flooring}}</figcaption></figure>
+    <figure class="shot shot-d" data-slot="painting"><figcaption>{{slot_painting}}</figcaption></figure>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="section-head">
+    <p class="tape">{{process_tape}}</p>
+    <h2>{{process_h2}}</h2>
+  </div>
+  <ol class="steps">
+    <li><h3>{{p1_name}}</h3><p>{{p1_text}}</p></li>
+    <li><h3>{{p2_name}}</h3><p>{{p2_text}}</p></li>
+    <li><h3>{{p3_name}}</h3><p>{{p3_text}}</p></li>
+    <li><h3>{{p4_name}}</h3><p>{{p4_text}}</p></li>
+  </ol>
+</section>
+
+<section class="estimate" id="estimate">
+  <div class="estimate-copy">
+    <p class="tape">{{est_tape}}</p>
+    <h2>{{est_h2}}</h2>
+    <p>{{est_text}}</p>
+    <p class="estimate-direct">
+      <a href="https://wa.me/19298669637" rel="noopener">{{est_wa}}</a>
+      <a href="tel:+19298669637">{{est_call}} +1 (929) 866 9637</a>
+    </p>
+  </div>
+  <form class="form" id="estimate-form" action="https://wa.me/19298669637" method="get" target="_blank"
+        data-intro="{{msg_intro}}" data-l-name="{{f_name}}" data-l-phone="{{f_phone}}" data-l-place="{{f_place}}" data-l-service="{{f_service}}" data-l-details="{{f_details}}">
+    <label>{{f_name}}<input id="f-name" type="text" autocomplete="name" required></label>
+    <label>{{f_phone}}<input id="f-phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+    <label>{{f_place}}<input id="f-place" type="text" autocomplete="postal-code"></label>
+    <label>{{f_service}}
+      <select id="f-service">
+        <option>{{s1_name}}</option>
+        <option>{{s2_name}}</option>
+        <option>{{s3_name}}</option>
+        <option>{{s4_name}}</option>
+      </select>
+    </label>
+    <label class="wide">{{f_details}}<textarea id="f-details" name="text" rows="4" placeholder="{{f_details_ph}}"></textarea></label>
+    <button class="btn btn-solid wide" type="submit">{{f_submit}}</button>
+    <p class="form-note wide">{{f_note}}</p>
+  </form>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div>
+    <p class="mark-name">AV Elite</p>
+    <p class="mark-sub">Home Renovation LLC</p>
+  </div>
+  <p>{{foot_area}}</p>
+  <p><a href="tel:+19298669637">+1 (929) 866 9637</a><br><a href="https://wa.me/19298669637" rel="noopener">WhatsApp</a></p>
+  <p class="foot-legal">© 2026 AV Elite Home Renovation LLC</p>
+</footer>
+
+<div class="dock">
+  <a class="btn btn-solid" href="#estimate">{{dock_estimate}}</a>
+  <a class="btn btn-tape" href="https://wa.me/19298669637" rel="noopener">WhatsApp</a>
+</div>
+
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
